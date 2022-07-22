@@ -1,0 +1,49 @@
+.board {
+  width: 350px;
+  height: 350px;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 800;
+}
+
+.board div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.board div > span {
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+  /* border: 2px solid; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-1 .border,
+.row-2 .border {
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+.row-1 .b-bottom,
+.row-2 .b-bottom {
+  border-bottom: 5px solid orange;
+}
+
+.row-3 .b-right {
+  border-right: 5px solid orange;
+}
+
+.board button {
+  width: 60%;
+  height: 120px;
+  font-size: 1.5rem;
+  margin: 25px auto;
+  border-radius: 5px;
+  font-weight: 700;
+}
